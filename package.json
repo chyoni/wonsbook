@@ -1,0 +1,18 @@
+{
+  "name": "wonsbook",
+  "version": "1.0.0",
+  "description": "Facebook Clone with Apollo + TypeScript",
+  "repository": "https://github.com/chiwon99881/wonsbook",
+  "author": "Chiwon <chiwon99881@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-runtime": "^6.26.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts"
+  }
+}
