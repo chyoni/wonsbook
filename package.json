@@ -17,6 +17,9 @@
     "typescript": "^3.6.2"
   },
   "scripts": {
+    "deploy": "prisma deploy",
+    "generate": "prisma generate",
+    "prisma": "yarn run deploy && yarn run generate",
     "dev": "nodemon --exec ts-node src/index.ts"
   },
   "dependencies": {
